@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Wireless Mouse",
+        "precio": 29.99,
+        "categorias": ["Tecnologias", "Computadoras", "Notebooks"]
+    },
+    {
+        "id": 2,
+        "nombre": "Auricular Bluetooth",
+        "precio": 79.99,
+        "categorias": ["Tecnologias", "Audio", "Accesorios"]
+    },
+    {
+        "id": 3,
+        "nombre": "Cafetera Oster programable",
+        "precio": 199.99,
+        "categorias": ["Hogar", "Electrodomésticos", "Cocina"]
+    },
+    {
+        "id": 4,
+        "nombre": "Zapatillas Nike revolution 6",
+        "precio": 49.99,
+        "categorias": ["Ropa", "Calzado", "Deportes"]
+    },
+    {
+        "id": 5,
+        "nombre": "External Hard Drive",
+        "precio": 89.99,
+        "categorias": ["Tecnologias", "Computadoras", "Notebooks"]
+    }
+]

@@ -1,10 +1,21 @@
-export const getProductById
-let products = [
-    { id: 1, nombre: 'Producto 1', precio: 100 },
-    { id: 2, nombre: 'Producto 2', precio: 200 },
-    { id: 3, nombre: 'Producto 3', precio: 300 },
-];
+import fs from 'fs';
+import path from 'path';
+
+let products = [];
+const __dirname = import.meta.dirname
+console.log( path.join(__dirname), "products.json");
 
 
-export const getProducts = () => {
-   return products};
+export const getAllProducts = () => {
+    fs.readFile(path.join(__dirname, "products.json"), "utf-8", (error, data) => {
+    if (error) {
+
+        return console.error(error);
+    }
+
+      products = JSON.parse(data);
+      console.log(products);
+
+}); 
+
+};
